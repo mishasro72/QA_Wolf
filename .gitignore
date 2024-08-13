@@ -1,0 +1,29 @@
+# Игнорировать файлы pytest cache
+.pytest_cache/
+
+# Игнорировать виртуальное окружение
+venv/
+
+# Игнорировать файлы логов
+*.log
+
+# Игнорировать файлы отчётов о покрытии кода
+.coverage
+
+# Игнорировать временные файлы
+*.tmp
+
+# Игнорировать директорию проекта IntelliJ IDEA
+.idea/
+
+# Игнорировать файлы .iml
+*.iml
+
+#Игнорировать директрорию проекта "screenshots"
+screenshots/
+
+allure-results/
+
+allure-report/
+
+tests/login/results/
