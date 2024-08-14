@@ -1,7 +1,10 @@
 from playwright.sync_api import Page
 from pages.main_page import MainPage
+import allure
 
-
+@allure.severity(allure.severity_level.NORMAL)
+@allure.feature("Sort articles")
+@allure.title("Checking the first 100 articles are sorted from newest to oldest")
 def test_articles_sorted(page):
 
     main_page = MainPage(page)
