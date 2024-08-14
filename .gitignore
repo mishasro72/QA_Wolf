@@ -22,8 +22,7 @@ venv/
 #Игнорировать директрорию проекта "screenshots"
 screenshots/
 
-allure-results/
+results/
 
 allure-report/
 
-tests/login/results/
